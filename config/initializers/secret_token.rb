@@ -11,7 +11,7 @@
 # if you're sharing your code publicly.
 
 require 'securerandom'
-1
+
 def secure_token
   token_file = Rails.root.join('.secret')
   if File.exist?(token_file)
